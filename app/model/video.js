@@ -19,7 +19,7 @@ module.exports = app => {
 			default: '',
 		},
 		content: {
-			type: Text,
+			type: String,
 			default: '',
 		},
 		categoryId: [ObjectId],
