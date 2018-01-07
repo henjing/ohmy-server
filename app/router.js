@@ -20,15 +20,14 @@ module.exports = app => {
   // category
   router.post('/api/categorys', controller.category.create);
   router.delete('/api/categorys', controller.category.remove);
-//router.put('/api/categorys', controller.category.update);
+	router.put('/api/categorys', controller.category.update);
   router.get('/api/categorys', controller.category.getList);
   
   
   // video
   router.post('/api/videos', controller.video.create);
   router.delete('/api/videos', controller.video.remove);
-//router.put('/api/videos', controller.video.update);
+	router.put('/api/videos', controller.video.update);
   router.get('/api/videos', controller.video.getList);
-  
   
 };
